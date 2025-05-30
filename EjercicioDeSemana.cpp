@@ -35,6 +35,12 @@ int main(){
 		cout<<"Dia de la semana no encontrado"<<endl;
 	}
 	
+	if(numero==2 or numero==3 or numero==4 or numero==5 or numero==6){
+		cout<<"en este dia tienes clases"<<endl;
+	}else{
+		cout<<"este dia no tienes clases"<<endl;
+	}
+	
 	cout<<"gracias por su participacion"<<endl;
 	
 	return 0;
