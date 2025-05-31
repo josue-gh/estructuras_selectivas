@@ -5,7 +5,7 @@ int main(){
 	
 	int x,p;
 	
-	cout<<ingrese un numero<<endl;
+	cout<<"ingrese un numero" <<endl;
 	cin>> x;
 	
 	if(x>8){
@@ -16,6 +16,9 @@ int main(){
 		if(x>0 and x<=8){
 			p=x-5;
 			cout<<p;
+		}else{
+			p=x*x;
+			cout<< p;
 		}
 	}
 }
