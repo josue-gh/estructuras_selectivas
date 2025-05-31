@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
 	float n, t, d, i, j; 
+	cout<<"monto a pagar con el descuento realizado"<<endl;
 	
 	cout<<"ingrese el total de prendas compradas"<<endl ;
 	cin>> n;
