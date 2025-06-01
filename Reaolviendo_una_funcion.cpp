@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 	
-	int x,p;
+	int x, p;
 	
 	cout<<"ingrese un numero" <<endl;
 	cin>> x;
@@ -11,6 +11,9 @@ int main(){
 	if(x>8){
 		
 		p=2*x;
+		
+		cout<<"el resultado es: "<<endl;
+		
 		cout<< p;
 	}else{
 		if(x>0 and x<=8){
@@ -21,4 +24,5 @@ int main(){
 			cout<< p;
 		}
 	}
+	return 0;
 }
