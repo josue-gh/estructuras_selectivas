@@ -4,6 +4,7 @@ using namespace std;
 int main(){
 	
 	int x, p;
+	cout<<"bienbenidos al programa para resolver una funcion"<<endl;
 	
 	cout<<"ingrese un numero" <<endl;
 	cin>> x;
