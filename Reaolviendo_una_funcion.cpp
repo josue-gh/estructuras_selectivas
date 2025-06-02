@@ -18,9 +18,13 @@ int main(){
 	}else{
 		if(x>0 and x<=8){
 			p=x-5;
+			
+			cout<<"el resultados es: "<<endl;
 			cout<<p;
 		}else{
 			p=x*x;
+			
+			cout<<"el resultado es: "<<endl;
 			cout<< p;
 		}
 	}
